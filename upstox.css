@@ -1,0 +1,124 @@
+/* upstox.css */
+
+/* Base styles */
+body {
+    background-color: #003399;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: azure;
+    width: 430px;
+    height: 450px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 150px;
+    border-radius: 2px;
+}
+
+.user {
+    padding: 15px;
+    width: 300px;
+    border-radius: 6px;
+    margin-right: 50px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-color: white;
+    border-top: whitesmoke;
+    border-left: whitesmoke;
+}
+
+input {
+    font-size: 14px;
+}
+
+.btn {
+    padding: 15px;
+    width: 300px;
+    background-color: #003399;
+    color: white;
+    border-radius: 10px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.sai {
+    padding: 23px;
+    margin-right: 44px;
+    margin-bottom: 50px;
+}
+
+.up,
+.down {
+    float: right;
+    text-decoration: none;
+    color: rgb(191, 190, 245);
+    padding-left: 20px;
+}
+
+label {
+    color: rgb(191, 190, 245);
+    padding-inline-end: 50px;
+    padding-top: 10px;
+}
+
+h3 {
+    margin-top: -2px;
+    padding-right: 95px;
+    font-size: 19px;
+    font-weight: lighter;
+}
+
+.submit-icon svg {
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+}
+
+.site-log {
+    margin-left: 30px;
+    padding-top: 29px;
+}
+
+.ask {
+    margin-top: -19px;
+}
+
+.create {
+    color: #003399;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%; /* Adjust width for smaller screens */
+        height: auto; /* Allow height to adjust dynamically */
+        margin-top: 50px; /* Reduce top margin */
+    }
+
+    .user {
+        width: 80%; /* Make inputs wider */
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .btn {
+        width: 80%; /* Make button wider */
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    h3 {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    label {
+        font-size: 14px; /* Reduce label font size */
+    }
+}
